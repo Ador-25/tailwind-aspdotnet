@@ -36,16 +36,19 @@
             @RenderBody()
         </main>
 
-        <p class="text-red-400">The quick brown fox...</p>
-
 
     </div>
+    <button id="theme-toggle">Toggle Theme</button>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - WebApplication1 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    <!-- Add a script to handle theme toggling -->
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark');
+        });
+    </script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
