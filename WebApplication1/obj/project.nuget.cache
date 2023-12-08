@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jdGIrl4bllcPoxGB9/S7QsOe0jvOnmwSQo+P/zXihRQS4lRiVhyz6c389CmJWZJW6d63ygoW2i8zuxdaQxhwDg==",
+  "dgSpecHash": "61CVNOCCTQJT23UrSU4nDBt5YmsP+ucPXa+uDX9MwqvyA5W04Kyw/zRQ0E/175eUoq8X24ItMbWnB4Ynz+qSNQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Angel\\Desktop\\Dev\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "D:\\tailwind-aspdotnet\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
